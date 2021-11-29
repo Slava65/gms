@@ -1,0 +1,80 @@
+.header {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 200px;
+  height: 100px;
+}
+
+.header__menu {
+  width: 174px;
+  height: 174px;
+  border-radius: 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition-property: transform;
+  transition-duration: 3s;
+}
+
+.header__button {
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  border: none;
+  border-radius: 32px;
+  font-family: "Inter", ‘Arial’, sans-serif;
+  font-style: normal;
+  font-size: 11px;
+  transition-property: transform;
+  transition-duration: 3s;
+}
+
+.header__button_last {
+  margin-top: 0;
+}
+
+.header__button_signinactive {
+  transform: rotate(-60deg);
+}
+
+.header__button_registeractive {
+  transform: rotate(60deg);
+}
+
+.header__button_signoutactive {
+  transform: rotate(-180deg);
+}
+
+.header__menu_signinactive {
+  transform: rotate(60deg);
+}
+
+.header__menu_registeractive {
+  transform: rotate(-60deg);
+}
+
+.header__menu_signoutactive {
+  transform: rotate(180deg);
+}
+
+.header__firstbtnscontainer {
+  width: 158px;
+  height: 64px;
+  margin-top: 27px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__lastbtncontainer {
+  width: 174px;
+  height: 64px;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -10,6 +10,12 @@
   height: 100px;
 }
 
+.header__menu-container {
+  width: 174px;
+  height: 174px;
+  position: relative;
+}
+
 .header__menu {
   width: 174px;
   height: 174px;
@@ -35,6 +41,31 @@
   transition-duration: 3s;
 }
 
+.header__button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.header__activebtn-background {
+  width: 66px;
+  height: 66px;
+  border-radius: 33px;
+  border: 2px solid rgb(221, 9, 9);
+  position: absolute;
+  top: -2px;
+  left: 53px;
+  background-color: rgba(222, 125, 13);
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 3s;
+  transition-timing-function: cubic-bezier(.99, -0, 1, .03);
+}
+
+.header__activebtn-background_checked {
+  opacity: 0.5;
+  z-index: 2;
+}
+
 .header__button_last {
   margin-top: 0;
 }
@@ -47,7 +78,7 @@
   transform: rotate(60deg);
 }
 
-.header__button_signoutactive {
+.header__button_aboutactive {
   transform: rotate(-180deg);
 }
 
@@ -59,7 +90,7 @@
   transform: rotate(-60deg);
 }
 
-.header__menu_signoutactive {
+.header__menu_aboutactive {
   transform: rotate(180deg);
 }
 

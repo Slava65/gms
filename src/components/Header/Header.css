@@ -66,6 +66,10 @@
   z-index: 2;
 }
 
+.header__activebtn-background_close {
+  transition-duration: 0s;
+}
+
 .header__button_last {
   margin-top: 0;
 }

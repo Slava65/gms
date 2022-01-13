@@ -1,15 +1,16 @@
 import FormPopup from "../Formpopup/FormPopup";
 
-function Login({ isOpen }) {
+function Login({ isOpen, onClose }) {
   return (
     <FormPopup
       name={"login"}
       title={"Вход"}
       buttonText="Войти"
       isOpen={isOpen}
+      onClose={onClose}
     >
-      <input className="popup__text" placeholder="Е-mail"></input>
-      <input className="popup__text" placeholder="Пароль"></input>
+      <input className="login__text" placeholder="Е-mail"></input>
+      <input className="login__text" placeholder="Пароль"></input>
     </FormPopup>
   );
 }

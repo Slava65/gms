@@ -51,14 +51,14 @@
 }
 
 .popup__enter {
-  font-size: 16px;
+  font-size: 12px;
   font-family: "Inter", ‘Arial’, sans-serif;
   font-style: normal;
   font-weight: 500;
   padding: 0;
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 70px;
+  width: 125px;
   height: 25px;
   border-width: 1px;
   border-radius: 6px;

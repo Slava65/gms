@@ -1,10 +1,7 @@
-.login__text {
-  width: 200px;
-  height: 25px;
+.aboutproject__text {
   font-family: "Inter", ‘Arial’, sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
-  border: none;
-  margin-bottom: 20px;
+  width: 400px;
 }
